@@ -1,0 +1,27 @@
+{
+  "name": "@horat1us/hackerrank-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horat1us/hackerrank-solutions.git"
+  },
+  "author": "Alexander Letnikow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Horat1us/hackerrank-solutions/issues"
+  },
+  "homepage": "https://github.com/Horat1us/hackerrank-solutions#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.2"
+  }
+}
