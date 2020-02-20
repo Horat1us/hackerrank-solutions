@@ -1,3 +1,8 @@
+/**
+ * @link https://www.hackerrank.com/challenges/time-conversion/problem
+ * @param {String} s 12-hour format
+ * @returns {String} 24-hour format
+ */
 export function timeConversion(s) {
     return s.replace(
         /^((\d{2})(:\d{2}:\d{2}))([PA])M$/,
