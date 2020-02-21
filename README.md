@@ -9,3 +9,4 @@
     - [aVeryBigSum](./algo/a-very-big-sum.mjs)
     - [birthdayCakeCandles](./algo/birthday-cake-candles.mjs)
     - [gameOfStones](./algo/game-of-stones.mjs)
+    - [extraLongFactorials](./algo/extra-long-factorials.mjs)
