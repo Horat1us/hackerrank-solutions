@@ -4,9 +4,10 @@
 ## Contents
 
 - [Algorithms](./algo)
-    - [compareTriplets](./algo/compare-triplets.mjs)
-    - [timeConversion](./algo/time-conversion.mjs)
-    - [aVeryBigSum](./algo/a-very-big-sum.mjs)
-    - [birthdayCakeCandles](./algo/birthday-cake-candles.mjs)
-    - [gameOfStones](./algo/game-of-stones.mjs)
-    - [extraLongFactorials](./algo/extra-long-factorials.mjs)
+    - [Compare Triplets](./algo/compare-triplets.mjs)
+    - [Time Conversion](./algo/time-conversion.mjs)
+    - [A Very Big Sum](./algo/a-very-big-sum.mjs)
+    - [Birthday Cake Candles](./algo/birthday-cake-candles.mjs)
+    - [Game of Stones](./algo/game-of-stones.mjs)
+    - [Extra Long Factorials](./algo/extra-long-factorials.mjs)
+    - [Climbing the Leaderboard](./algo/climbing-the-leaderboard.mjs)
