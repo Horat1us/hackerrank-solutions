@@ -8,3 +8,4 @@
     - [timeConversion](./algo/time-conversion.mjs)
     - [aVeryBigSum](./algo/a-very-big-sum.mjs)
     - [birthdayCakeCandles](./algo/birthday-cake-candles.mjs)
+    - [gameOfStones](./algo/game-of-stones.mjs)
