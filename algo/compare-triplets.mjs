@@ -4,6 +4,7 @@
  * @param {Triplet} a
  * @param {Triplet} b
  * @returns {[number, number]}
+ * @author Alexander <Horat1us> Letnikow
  */
 export function compareTriplets(a, b) {
     const result = [0, 0];

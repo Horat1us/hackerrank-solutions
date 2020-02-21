@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r esm"
+    "test": "mocha -r esm -s 0"
   },
   "repository": {
     "type": "git",
