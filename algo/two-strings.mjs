@@ -1,7 +1,7 @@
 export function twoStrings(s1, s2) {
     let arr1 = s1.split("\n");
     let arr2 = s2.split("\n");
-    let result = new Array(arr1.length).fill();
+    let result = new Array(arr1.length).fill(undefined);
 
     for (let i = 0; i < arr1.length; ++i) {
 

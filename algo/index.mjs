@@ -6,3 +6,4 @@ export * from "./game-of-stones";
 export * from "./extra-long-factorials";
 export * from "./climbing-the-leaderboard";
 export * from "./two-strings";
+export * from "./string-construction";
