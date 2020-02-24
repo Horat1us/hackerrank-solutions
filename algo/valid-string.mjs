@@ -1,15 +1,15 @@
 /**
+ * Validates string
  * @link https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem
- * @param s
+ * @param {String} s
  * @returns {boolean}
  */
-
 export function isValid(s) {
     if (s.length < 2) {
         return true;
     }
     const charMap = {};
-    for (let i=0; i < s.length; i++) {
+    for (let i = 0; i < s.length; i++) {
         const char = s[i];
         charMap[char] = (char in charMap) ? charMap[char] + 1 : 1;
     }
@@ -32,9 +32,41 @@ export function isValid(s) {
     return ((single === 1) || Math.abs(multiple - single) === 1);
 }
 
-isValid.io = [
+/**
+ * 2x faster
+ * @param {String} s
+ * @returns {boolean}
+ */
+export function isValidO(s) {
+    if (s.length < 2) {
+        return true;
+    }
+    const cc = Object.entries(
+        s.split("")
+            .reduce(
+                (counts, char) => {
+                    counts[char.charCodeAt(0) - 97]++;
+                    return counts;
+                },
+                Array(25).fill(0)
+            )
+            .filter((c) => c !== 0)
+            .reduce((o, c) => {
+                o[c] = (o[c] || 0) + 1;
+                return o;
+            }, {})
+    )
+        .sort((a, b) => a[1] - b[1]);
+    return (cc.length === 1)
+        || (cc.length === 2 && (cc[0][1] === 1) && (
+            (cc[0][0] === '1')
+            || Math.abs(cc[0][0] - cc[1][0]) === 1
+        ));
+}
+
+isValidO.io = isValid.io = [
     [
-      "aabbcd",
+        "aabbcd",
         false
     ],
     [
@@ -77,4 +109,12 @@ isValid.io = [
         "abbccc",
         false
     ],
+    [
+        "abc",
+        true,
+    ],
+    [
+        "aabbc",
+        true,
+    ]
 ];

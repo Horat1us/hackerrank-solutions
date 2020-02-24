@@ -8,3 +8,4 @@ export * from "./climbing-the-leaderboard";
 export * from "./two-strings";
 export * from "./string-construction";
 export * from "./valid-string";
+export * from "./weighted-uniform-strings";
